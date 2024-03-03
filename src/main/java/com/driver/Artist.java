@@ -1,12 +1,16 @@
 package com.driver;
 
+import java.util.List;
+
 public class Artist {
     private String name;
     private int likes;
 
-    public Artist() {}
+    public Artist(){
 
-    public Artist(String name) {
+    }
+
+    public Artist(String name){
         this.name = name;
         this.likes = 0;
     }
